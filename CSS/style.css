@@ -1,0 +1,47 @@
+.itembox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+#input {
+    padding: 10px 40px;
+    outline-color: red;
+    outline-width: 2px;
+}
+
+.btn {
+    background: black;
+    padding: 10px 20px;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+
+
+}
+
+.box {
+    width: 30%;
+    height: 40vh;
+    background: rgb(93, 91, 91);
+    overflow-y: scroll;
+
+}
+
+.boxItem {
+    width: inherit;
+    height: 50px;
+    background: yellow;
+    margin: 10px;
+    text-align: center;
+
+}
+
+
+.boxItem span {
+    color: rgb(16, 15, 15);
+    line-height: 50px;
+}
